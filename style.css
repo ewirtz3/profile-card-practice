@@ -1,0 +1,40 @@
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+.card {
+  box-shadow: 2px 2px 2px 2px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+.card-top {
+  line-height: 3px;
+}
+.card-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.user-name,
+.user-age {
+  margin: 5px;
+}
+.user-age,
+.user-city {
+  color: hsl(227, 10%, 46%);
+}
+.card-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+}
+.user-city,
+.attribute {
+  color: hsl(227, 10%, 46%);
+  font-size: 16px;
+}
